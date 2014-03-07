@@ -1,22 +1,58 @@
-size(300,350);
+size(500,500);
 background(0,0,0);
-fill(20,50,150);
+fill(50,125,150);
 
+//EXERCISE 3.2
+println();
 float middleX = width/2;
 float middleY = height/2;
 
-//stroke(255,0,0);
-//ellipse(middleX,middleY,40,40);
+//EXERCISE 2.1 and 2.2 and 3.3 and 4.1
+stroke(255,255,255);
+noFill();
+ellipse(middleX,middleY,40,40);
+ellipse(middleX+150,middleY+30,100,100);
+ellipse(middleX-150,middleY-90,40,40);
 
-//ellipse(80,80,30,30);
+stroke(255,255,255);
+line(middleX,270,250,500);
 
-stroke(140,85,0);
-//line(80,30,100,100);
-
-int  x = 20;
-strokeWeight(4);
-line(x,0,x,height);
-
-//for (int a = 40; a < width; a +=10);
-
+// EXERCISE 4.2 multiplying the line - DRAFT
+float position = 10;
+line(position, 100, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
+line(position, 180, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
+line(position, 100, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
+line(position, 180, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
+line(position, 100, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
+line(position, 180, position, height);
+position = position * 2;
+println(position);
+line(position, 200, position, height);
+position = position * 2;
+println(position);
 
