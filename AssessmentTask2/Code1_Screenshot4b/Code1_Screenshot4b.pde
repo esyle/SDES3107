@@ -1,5 +1,5 @@
 
-//CODE 1: changing the colours of the pattern to reflect shade/gradient
+//CODE 1: 
 /**
  * draw the path of a stupid agent
  *
@@ -83,7 +83,7 @@ void draw() {
     if (posY < 0) posY = height;
     if (posY > height) posY = 0;
 
-    fill();
+    fill(0);
     ellipse(posX+stepSize/3, posY+stepSize/3, 0.3, 0.3);
   }
 }
